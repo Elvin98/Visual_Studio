@@ -18,9 +18,12 @@ namespace ProyectoGitHub
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            //Esto es el evento
+            
         }
 
-     
+        private void button1_Click(object sender, EventArgs e)
+        {
+           textResult=
+        }
     }
 }
