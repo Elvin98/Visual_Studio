@@ -23,7 +23,12 @@ namespace ProyectoGitHub
 
         private void button1_Click(object sender, EventArgs e)
         {
-           textResult=
+            string numero1, numero2,result;
+
+            numero1 = txtNumero1.Text;
+            numero2 = txtNumero2.Text;
+            result = numero1 + numero2;
+            textResult.Text = result.ToString();
         }
     }
 }
